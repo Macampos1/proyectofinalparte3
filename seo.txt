@@ -1,0 +1,4 @@
+ En el archivo index.html sumé el SEO con las siguientes características:
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: content="Coco Pet Shop es una tienda de productos para mascotas, Encontrá en Puppis los mejores productos y servicios para mascotas. " >
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: content="mascotas, alimentos, petshop, perros, gatos"
+Encabezado: para el encabezado del h1 utilicé el texto "Todo para tu Mascota"

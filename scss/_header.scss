@@ -1,0 +1,51 @@
+
+.menu-img{
+    text-align:  center;
+  }
+
+  h1{
+    font-family: 'Nunito', sans-serif;
+    background-color: #83c5be;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+
+  
+
+.menu-img{
+  text-align:  center;
+}
+
+
+input{
+margin: 10px;
+padding: 15px;
+width: 800px;
+}
+.coco{
+    width: 300px;
+    
+}
+
+ul{
+    display:flex; 
+    flex-direction: row;
+    list-style-type: none;   
+    text-align: center;
+    padding-top:10px ;
+    padding-bottom:10px;
+    
+}
+li{
+    display: flex;
+    -ms-flex-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    margin: 20px;
+
+    
+    
+}
