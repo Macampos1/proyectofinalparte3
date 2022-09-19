@@ -1,128 +1,104 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap");
+.footeer {
+  background-color: #83C5BE;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footeer__fa-instagram {
+    font-size: 3ren;
+    color: white; }
+  .footeer__fa-facebook {
+    font-size: 3ren;
+    color: white; }
+
+.header__img {
+  width: 300px; }
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.header li {
+  display: flex;
+  -ms-flex-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  margin: 20px; }
+
+.menu-img {
+  text-align: center; }
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  background-color: #83c5be;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black; }
+
+input {
+  margin: 10px;
+  padding: 15px;
+  width: 800px; }
+
+.container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: auto;
+  align-items: center;
+  max-width: 100%;
+  text-align: center;
+  font-family: arial;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "section-1 section-1 section-2 section-2" "section-3 section-3 section-4 section-4" "section-5 section-5 section-6 section-6"; }
+  .container.section-1 {
+    grid-area: section-1; }
+  .container.section-2 {
+    grid-area: section-2; }
+  .container.section-3 {
+    grid-area: section-3; }
+  .container.section-4 {
+    grid-area: section-4; }
+  .container.section-5 {
+    grid-area: section-5; }
+  .container.section-6 {
+    grid-area: section-6; }
+
+.price {
+  color: grey;
+  font-size: 20px; }
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px; }
+
+.card button:hover {
+  opacity: 0.7; }
+
+.container {
+  justify-self: initial;
+  align-self: initial;
+  width: 100rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr 1fr 1fr; }
+
 * {
   margin: 0%;
   padding: 0%; }
-
-
-  h1{
-    font-family: 'Nunito', sans-serif;
-    background-color: #83c5be;
-    color: white;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid black;
-}
-
-  
-
-.menu-img{
-  text-align:  center;
-}
-
-
-input{
-margin: 10px;
-padding: 15px;
-width: 800px;
-}
-.coco{
-    width: 300px;
-    
-}
-
-ul{
-    display:flex; 
-    flex-direction: row;
-    list-style-type: none;   
-    text-align: center;
-    padding-top:10px ;
-    padding-bottom:10px;
-    
-}
-li{
-    display: flex;
-    -ms-flex-align: center;
-    font-family: 'Nunito', sans-serif;
-    font-size: 30px;
-    margin: 20px;
-
-    
-    
-}
-
-.container {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-    display: grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr; 
-    gap: 0px 0px; 
-    grid-template-areas: 
-    "section-1 section-1 section-2 section-2"
-    "section-3 section-3 section-4 section-4"
-    "section-5 section-5 section-6 section-6"; 
-     }
-     .section-1 { grid-area: section-1; }
-    .section-2 { grid-area: section-2; }
-    .section-3 { grid-area: section-3; }
-    .section-4 { grid-area: section-4; }
-    .section-5 { grid-area: section-5; }
-    .section-6 { grid-area: section-6; }
-
-  
-  .price {
-    color: grey;
-    font-size: 22px;
-  }
-  
-  .card button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-  .card button:hover {
-    opacity: 0.7;
-  }
-
-  .container{
-    justify-self:initial ;
-    align-self: initial;
-    width: 70rem;
-    display: grid; 
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr; 
-
-}
-
-
-
-    
-footer{
-    background-color: #83C5BE;
-    color: white;
-    text-align: center;
-}
-.fa-instagram{
-    font-size: 3ren;
-    color:white;
-}
-.fa-facebook{
-    font-size: 3ren;
-    color: white;
-    
-}
-
-@media (max-width: 576px){
-
-}
