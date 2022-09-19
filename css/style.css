@@ -3,7 +3,7 @@
   background-color: #83C5BE;
   color: white;
   text-align: center;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%; }
   .footeer__fa-instagram {
